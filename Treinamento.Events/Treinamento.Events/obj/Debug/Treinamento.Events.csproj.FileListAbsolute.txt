@@ -1,0 +1,7 @@
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\bin\Debug\Treinamento.Events.exe.config
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\bin\Debug\Treinamento.Events.exe
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\bin\Debug\Treinamento.Events.pdb
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\obj\Debug\Treinamento.Events.csprojAssemblyReference.cache
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\obj\Debug\Treinamento.Events.csproj.CoreCompileInputs.cache
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\obj\Debug\Treinamento.Events.exe
+C:\Users\ROMULO-NOTE\Projetos\C#\Treinamento.Events\Treinamento.Events\obj\Debug\Treinamento.Events.pdb
