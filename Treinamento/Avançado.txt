@@ -1,0 +1,80 @@
+Covariância: trata-se da conversão de um tipo especializado (específico) para um tipo mais genérico;
+Contravariância: é a situação inversa à covariância – um tipo mais genérico é convertido para um tipo mais específico;
+Invariância: não há necessidade de conversão dos tipos, pois se trata da mesma tipagem.
+
+
+
+Covariancia = array de pessoas com uim espaço na heap, quando cria adiciona as classes extendidas 
+
+PessoaFisica[] pessoaFisicas = new PessoaFisica[ 10 ];
+Pessoa[] grupo = pessoaFisicas;
+grupo[ 1 ] = new PessoaJuridica();//erro de covariancia
+
+copila porem o erro fica na parte de execução
+
+
+para os tipos genericos o erro ja é mostrado na copilação nao na execulção, 
+pois eles nao aceita a atribuição de dados
+
+Covariante - objects = strings; Especifico -> Generico
+objeto mais especifico(string) convertido para um objeto mais generico(object)
+Tipo PessoaFisica -> Pessoa = <out T>
+
+
+Contra Variante - strings = objects; Generico-> Especifico
+objeto mais generico(object) convertido para um objeto mais especifico(string)
+Tipo Pessoa -> PessoaFisica = <int T>
+
+Delegates (2)
+
+delegate void Calc(int a);
+
+Delegates Genericos (3)
+delegate T Calc<T>(T a, T b);
+
+Especiais
+Func<int, int, int> c = p.Somar;//Covariante
+Action<int> imp = p.Imprimir  //metodos que retorno sejam void //Contravariante
+
+Eventos (4)
+public event TesteEventHandler OcorreuFalhaNoTesteEvent;
+
+gerar um evento que fica rodando sendo possivel chamar em outras partes do codigo;
+
+Expresões Lambda (5)
+são como arrow functions - num => num < 5
+
+serve para consulta de dados
+
+utiliza arvore de expressão para gerar compatibilidade entre as diferentes linguagens 
+
+@ é utilizado para transformar palavras reservadas em variaveis utilizaveis no escopo
+static Func<int, int, double> pot = ( @base, potencia ) => Math.Pow( @base, potencia );
+
+Objeto anonimos 
+
+objetos, classes, tipos anonimos
+
+var objeto = new { nome = "romulo", Idade = 23};
+
+propriedade e de somente leitura
+
+
+Extensão (6)
+
+LINQ (7)
+IEnumerable<Pessoa> en = from p in linq
+                        orderby p._nome
+                        select p;
+
+var en = linq.OrderBy( x => x._nome ).Select(x => new { x._nome } );
+
+sempre gera um IEnumerable, e tem essas duas formas de usalos
+
+Banco de dados (9)
+
+ORM ( object-relational mapping ) - Frameworks Entity e NHibernate
+
+POCO ( Plain-Old CLR Objects ) - classes desacopladas(clases simples)
+
+NHibernate - estados para um objeto - transient, persistent, detached

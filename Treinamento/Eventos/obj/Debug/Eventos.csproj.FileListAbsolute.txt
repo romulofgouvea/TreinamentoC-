@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Treinamento\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\User\source\repos\Treinamento\Eventos\bin\Debug\Eventos.exe
+C:\Users\User\source\repos\Treinamento\Eventos\bin\Debug\Eventos.pdb
+C:\Users\User\source\repos\Treinamento\Eventos\obj\Debug\Eventos.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Treinamento\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Treinamento\Eventos\obj\Debug\Eventos.exe
+C:\Users\User\source\repos\Treinamento\Eventos\obj\Debug\Eventos.pdb

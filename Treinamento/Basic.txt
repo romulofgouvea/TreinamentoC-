@@ -1,0 +1,38 @@
+﻿BASE DO C#
+LINQ = (Language Integrated Query) Linguagem de consulta unificada a varias fontes
+
+aruivos de codigos -> montadores especificos(mscorlid.dll)
+
+cod - 
+copilador - 
+assembly intermediario - convertido para uma linguagem unificada(MSIL)
+.Net class libraries -  um código de máquina 
+cod nativo - linguagem unificada
+
+PROJETOS DO .NET
+System.Console
+
+VARIAVEIS
+
+value-type
+integers, doubles, floats e structures.
+
+reference-type
+strings, arrays e classes.
+
+
+boxing e unboxing - polimorfismo pra um objeto - objeto x = 2
+					casting long x = (int) y
+
+encapsulamento - public, protect, private
+
+polimorfismo - varias formas - Pai = new Filha()
+
+classes
+	abstratas - abstract - metodos e variaveis
+	finais - sealed - nao pode extender dela
+	partial - 
+	interface - interface apenas metodos
+
+public class veiculo: extend, interface
+

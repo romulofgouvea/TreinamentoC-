@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Treinamento\Extensao\bin\Debug\Extensao.exe.config
+C:\Users\User\source\repos\Treinamento\Extensao\bin\Debug\Extensao.exe
+C:\Users\User\source\repos\Treinamento\Extensao\bin\Debug\Extensao.pdb
+C:\Users\User\source\repos\Treinamento\Extensao\obj\Debug\Extensao.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Treinamento\Extensao\obj\Debug\Extensao.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Treinamento\Extensao\obj\Debug\Extensao.exe
+C:\Users\User\source\repos\Treinamento\Extensao\obj\Debug\Extensao.pdb

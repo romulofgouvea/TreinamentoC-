@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\bin\Debug\TDelegateGenericos.exe.config
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\bin\Debug\TDelegateGenericos.exe
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\bin\Debug\TDelegateGenericos.pdb
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\obj\Debug\TDelegateGenericos.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\obj\Debug\TDelegateGenericos.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\obj\Debug\TDelegateGenericos.exe
+C:\Users\User\source\repos\Treinamento\TDelegateGenericos\obj\Debug\TDelegateGenericos.pdb

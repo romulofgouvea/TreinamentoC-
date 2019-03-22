@@ -1,0 +1,8 @@
+CREATE ROLE romulo_lemaf superuser;
+CREATE USER romulo_lemaf;
+
+GRANT postgres TO romulo_lemaf;
+
+ALTER ROLE romulo_lemaf WITH LOGIN;
+
+
