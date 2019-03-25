@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Treinamento.Persistencia\Treinamento.Dominio\bin\Debug\Treinamento.Dominio.dll
+C:\Users\User\source\repos\Treinamento.Persistencia\Treinamento.Dominio\bin\Debug\Treinamento.Dominio.pdb
+C:\Users\User\source\repos\Treinamento.Persistencia\Treinamento.Dominio\obj\Debug\Treinamento.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Treinamento.Persistencia\Treinamento.Dominio\obj\Debug\Treinamento.Dominio.dll
+C:\Users\User\source\repos\Treinamento.Persistencia\Treinamento.Dominio\obj\Debug\Treinamento.Dominio.pdb
+C:\Users\User\source\repos\Treinamento.Persistencia\Treinamento.Dominio\obj\Debug\Treinamento.Dominio.csprojAssemblyReference.cache

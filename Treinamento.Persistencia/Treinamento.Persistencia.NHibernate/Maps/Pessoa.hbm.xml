@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
+                   assembly="Treinamento.Persistencia.NHibernate"
+                   namespace="Treinamento.Persistencia.NHibernate.Maps"
+                   >
+
+  <class name="Treinamento.Dominio.Pessoa" table="dbo.Pessoas">
+    <id name="Id" column="id" type="int"> 
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="nome" type=""/>
+    <property name="Idade" column="idade" type=""/>
+    <property name="Endereco" column="endereco" type=""/>
+  </class>
+  
+</hibernate-mapping>
