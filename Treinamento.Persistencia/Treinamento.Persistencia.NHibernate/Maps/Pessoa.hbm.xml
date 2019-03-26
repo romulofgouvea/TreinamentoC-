@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
                    assembly="Treinamento.Persistencia.NHibernate"
-                   namespace="Treinamento.Persistencia.NHibernate.Maps"
-                   >
+                   namespace="Treinamento.Persistencia.NHibernate.Maps">
 
-  <class name="Treinamento.Dominio.Pessoa" table="dbo.Pessoas">
+  <class name="Treinamento.Dominio.Pessoa" table="Pessoas" schema="dbo">
     <id name="Id" column="id" type="int"> 
       <generator class="identity" />
     </id>

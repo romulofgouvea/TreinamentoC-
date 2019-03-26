@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Loja"
+                   namespace="Loja.Entidades">
+
+  <class name="Pessoa" table="Pessoas">
+    
+    <id name="Id" column="id" type="int">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="nome" />
+    <property name="Idade" column="idade"/>
+    <property name="Endereco" column="endereco"/>
+  </class>
+
+</hibernate-mapping>

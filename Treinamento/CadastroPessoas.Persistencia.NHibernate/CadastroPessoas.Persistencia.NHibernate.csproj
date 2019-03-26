@@ -67,5 +67,11 @@
   <ItemGroup>
     <Folder Include="Maps\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CadastroPessoas.Dominio\CadastroPessoas.Dominio.csproj">
+      <Project>{c9f6e147-b44d-4beb-8fbf-7740566eeecc}</Project>
+      <Name>CadastroPessoas.Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
