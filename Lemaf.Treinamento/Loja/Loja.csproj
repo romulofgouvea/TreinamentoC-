@@ -42,6 +42,9 @@
     <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\NHibernate.5.2.4\lib\net461\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.Caches.SysCache, Version=5.5.0.0, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.Caches.SysCache.5.5.1\lib\net461\NHibernate.Caches.SysCache.dll</HintPath>
+    </Reference>
     <Reference Include="Npgsql, Version=4.0.5.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <HintPath>..\packages\Npgsql.4.0.5\lib\net451\Npgsql.dll</HintPath>
     </Reference>
@@ -75,6 +78,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -83,8 +87,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\ProdutoDAO.cs" />
+    <Compile Include="DAO\GenericDAO.cs" />
     <Compile Include="DAO\PessoasDAO.cs" />
+    <Compile Include="Entidades\Categoria.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
+    <Compile Include="Entidades\PessoaFisica.cs" />
+    <Compile Include="Entidades\PessoaJuridica.cs" />
+    <Compile Include="Entidades\Produto.cs" />
+    <Compile Include="Entidades\Venda.cs" />
     <Compile Include="Infra\NhibernateHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,6 +111,10 @@
     <Content Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="Maps\Pessoa.hbm - Copy.xml" />
+    <EmbeddedResource Include="Maps\Venda.hbm.xml" />
+    <EmbeddedResource Include="Maps\Produto.hbm.xml" />
+    <EmbeddedResource Include="Maps\Categoria.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

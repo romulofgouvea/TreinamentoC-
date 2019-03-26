@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Loja.Entidades
 {
-    public abstract class Pessoa
+    public class Categoria
     {
         public virtual int Id { get; set; }
         public virtual string Nome { get; set; }
-        public virtual int Idade { get; set; }
-        public virtual string Endereco { get; set; }
+
+        public virtual IList<Produto> Produtos { get; set; }
     }
 }

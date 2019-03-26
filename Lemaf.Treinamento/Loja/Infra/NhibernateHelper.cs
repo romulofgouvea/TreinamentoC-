@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Loja.Infra
 {
-    class NhibernateHelper
+    public class NhibernateHelper
     {
         private static ISessionFactory _sessionFactory = LoadSessionFactory();
 
@@ -35,8 +35,6 @@ namespace Loja.Infra
         {
             return _sessionFactory.OpenSession();
         }
-
-
 
     }
 }

@@ -12,16 +12,16 @@
     <property name="Idade" column="idade"/>
     <property name="Endereco" column="endereco"/>
 
-    <!--HERANCA TABELA UNICA-->
-    <discriminator column="Tipo" type="System.String" />
-
-    <subclass name="PessoaFisica">
+    <!--HERANCA COM 3 TABELAS-->
+    <joined-subclass name="PessoaFisica">
+      <key column="PessoaId" />
       <property name="CPF" column="cpf" />
-    </subclass>
+    </joined-subclass>
 
-    <subclass name="PessoaJuridica">
+    <joined-subclass name="PessoaJuridica">
+      <key column="PessoaId" />
       <property name="CNPJ" column="cnpj" />
-    </subclass>
+    </joined-subclass>
     
   </class>
 

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Loja"
+                   namespace="Loja.Entidades">
+
+  <class name="Produto" table="Produtos">
+    
+    <cache usage="nonstrict-read-write"/>
+    
+    <id name="Id" column="id" type="int">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="nome" />
+    <property name="Preco" column="preco"/>
+    
+    <many-to-one name="Categoria" column="CategoriaId" fetch="join"/>
+  </class>
+
+</hibernate-mapping>
